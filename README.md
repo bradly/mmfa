@@ -1,6 +1,6 @@
 # Mmfa
 
-TODO: Write a gem description
+A little gem to get the current multi-factor authentication key on a Mac
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Setup an Apple Keychain entry with a name and your multi-factor authentication secret
+2. run mmfa KEYCHAIN_ITEM_NAME
+3. The current mfa key is printed and copied to your system clipboard
+
 
 ## Contributing
 
