@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'mmfa'
+
+keychain_item_name = ARGV[0] || abort('usage: mfa keychain_item_name')
+Mmfa.current_key(keychain_item_name)
